@@ -21,3 +21,6 @@ credentials.json
 # Tool output
 *.log
 results/
+
+*.egg-info/
+scan_results/
