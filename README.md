@@ -1,25 +1,38 @@
-# SafeDays Labs
+# SafeDays Lab
 
-A growing toolkit of small, focused security utilities I build to learn offensive
-and defensive fundamentals from the ground up. Each tool lives in its own folder
-with a README explaining **what it does, how it works, and why it matters**.
+A hands-on security engineering portfolio — building defensive security tools
+from first principles, one phase at a time.
 
-> ⚠️ **For education and authorized testing only.** Only run these tools against
-> systems you own or have explicit written permission to test.
+I'm a network engineer moving deeper into security. Rather than collecting
+certificates alone, I'm building the tools themselves to understand how they
+work underneath. Each project includes a write-up of what it does, how it
+works, and why it matters.
 
-## Tools
+## Phases
 
-| Tool | What it does | Status |
-|------|--------------|:------:|
-| [port-scanner](./port-scanner) | Threaded TCP port scanner with service detection | ✅ |
-| dns-lookup | Resolve A / AAAA / MX / TXT records | 🔜 |
-| encoder-decoder | Base64 / hex transforms | 🔜 |
-| hash-toolkit | MD5 / SHA hashing + dictionary lookup | 🔜 |
+| Phase | Focus | Status |
+|-------|-------|--------|
+| [01 · Foundations](./01-foundations) | Sockets, protocols, hashing, encoding | 🟡 In progress |
+| [02 · Network Defense](./02-network-defense) | Sniffing, ARP/DNS spoof detection, integrity monitoring | ⚪ Planned |
+| [03 · Cryptography](./03-crypto) | AES, TOTP/2FA, digital signatures | ⚪ Planned |
+| [04 · Offensive Fundamentals](./04-offensive-lab) | Vuln scanning, recon — **lab only** | ⚪ Planned |
+| [05 · Security Platforms](./05-platforms) | Honeypot, IDS, SIEM | ⚪ Planned |
+| [06 · Cloud Security](./06-cloud) | CSPM, container auditing, supply chain | ⚪ Planned |
 
-## Stack
-Python 3 — standard library first; any third-party dependencies are noted per-tool
-in `requirements.txt`.
+## Projects
+
+### Phase 1 — Foundations
+- [**Port Scanner**](./01-foundations/port-scanner) — Threaded TCP port scanner with service
+  identification. *Sockets, the TCP handshake, concurrency.*
+
+## Ethics
+
+Every tool here is built for defensive purposes and tested only against systems
+I own — my own hosts and an isolated EVE-NG lab. Nothing in this repository is
+run against systems without authorization.
 
 ## About
-Built by Jose Diaz as part of the [SafeDays Security](https://safedayssecurity.com)
-learning path.
+
+Jose Diaz — Network Engineer, San Antonio TX.
+CCNA · Security+ · Network+ · AWS CCP · Arista ACE-A
+B.S. Cloud & Network Engineering (WGU, 2026)
