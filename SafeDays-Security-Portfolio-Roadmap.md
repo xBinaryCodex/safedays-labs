@@ -13,7 +13,7 @@ Track: `[ ]` not started · `[~]` in progress · `[x]` done + repo pushed
 ## Phase 1 — Foundations & recon
 *Learn to speak the machine's language in Python. Every later phase reuses these primitives. Ship your first repos.*
 
-- [ ] **Port scanner** (list #1) — raw sockets + the TCP handshake. Teaches how services expose themselves on a network.
+- [~] **Port scanner** (list #1) — raw sockets + the TCP handshake. Teaches how services expose themselves on a network.
 - [ ] **DNS lookup tool** (#4) — a resolver that queries A / AAAA / MX / TXT. Teaches how names become addresses.
 - [ ] **Base64 / hex encoder-decoder** (#16) — teaches the critical distinction: *encoding is not encryption*.
 - [ ] **Caesar cipher CLI** (#3) — first taste of crypto (substitution). Sets up Phase 3.
