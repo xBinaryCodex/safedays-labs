@@ -1,7 +1,0 @@
-Scanner.py
-
-a python script to check for open ports
-
-first function scan a single port, this is the main function. it creates a socket using IPv4 adresses on TCP ports with AF_INET and SOCK_STREAM respectively. set a timeout for filtered ports. and uses an exemption free connection. 
-
-second function utilizes the first but with a range of ports.we  get a range of ports iterate through them using port_scan function to get result, we only keep the open ports found in a list and return that list
