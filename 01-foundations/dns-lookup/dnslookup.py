@@ -51,7 +51,7 @@ def check_email_security(domain):
     print("  SPF  :", "PRESENT" if spf else "MISSING")
     print("  DMARC:", "PRESENT" if dmarc else "MISSING")
 
-    if not spf  or dmarc:
+    if not spf  or  not dmarc:
         print("\n [!] Missing SPF or DMARC means this domain is easier to spoof in phishing.")
 
 if __name__ == "__main__":
